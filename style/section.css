@@ -1,0 +1,42 @@
+
+.fundo-pagehtml{
+    width: 100%;
+    display: flex;
+
+}
+.fundo-quadrados{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+#quadranteum,#quadrantedois{
+    padding: 10px;
+    height: 45px;
+}
+
+#quadranteum{
+    border-top: 4px solid aqua;
+    border-right: 4px solid aqua;
+    width: 50%;
+
+}
+#quadrantedois{
+    display: flex;
+    justify-content:right;
+
+    border-bottom: 4px solid aqua;
+    width: 25%;
+}
+.circulo-quadrante{
+
+    width: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid aqua;
+    border-radius:50% ;
+    transform: translateY(41px) translateX(34px);
+
+}
